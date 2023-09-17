@@ -60,7 +60,7 @@ gitlab-runner start
 sudo gitlab-runner register
 ```
 
-![](/git相关/gitlab-ci前端自动化-1.png)
+![](/imgs/git相关/gitlab-ci前端自动化-1.png)
 
 #### 4. 激活Runner
 
@@ -116,7 +116,7 @@ deploy-job:
 
 若出现如下问题：（原因：未进行免交互认证）
 
-![](/git相关/gitlab-ci前端自动化-2.png)
+![](/imgs/git相关/gitlab-ci前端自动化-2.png)
 
 使用以下方法解决：
 
