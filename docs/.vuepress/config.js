@@ -2,7 +2,7 @@ module.exports = {
     title: 'Roninz的博客',
     description: '练习时长3年的前端练习生',
     theme: 'reco',
-    base: '/blogs/',
+    // base: '/blogs/',
     locales: {
         "/": {
             lang: "zh-CN",
