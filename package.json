@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "npm run clean && vuepress build docs",
+    "clean": "rimraf node_modules && npm cache clean --force && npm i"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
   "devDependencies": {
     "vuepress": "^2.0.0-beta.67",
     "vuepress-theme-reco": "^2.0.0-beta.67"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.1"
   }
 }
