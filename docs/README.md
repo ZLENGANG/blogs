@@ -1,12 +1,26 @@
 ---
 home: true
-heroImage: "/live.png"
-heroText: Roninz
-heroImageStyle:
-  {
-    maxHeight: "288px",
-    display: block,
-    borderRadius: "19% 81% 23% 77% / 44% 57% 43% 56%",
-    boxShadow: "0 15px 18px rgba(0,0,0,0.2)",
-  } 
+modules:
+  - Banner
+  - BannerBrand
+  - MdContent
+  - Blog
+  - Footer
+banner: # banner 模块的配置
+  heroImage: /live.png
+  heroText: Roninz
+  tagline: Live a life you will remember.
+  
+ 
+bannerBrand:
+  bgImage: '/bg.svg'
+
+# blog:
+#   socialLinks:
+#     - { icon: 'LogoGithub', link: 'https://github.com/zlengang' }
+footer:
+  startYear: 2020
+# isShowTitleInHome: true
+# actionText: About
+# actionLink: /views/other/about
 ---
