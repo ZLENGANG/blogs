@@ -1,4 +1,4 @@
-import{_ as e,o as a,c as i,e as s}from"./app-c9761e37.js";const n={},d=s(`<h3 id="基础使用" tabindex="-1"><a class="header-anchor" href="#基础使用" aria-hidden="true">#</a> 基础使用</h3><p>1、初始化项目</p><div class="language-Bash line-numbers-mode" data-ext="Bash"><pre class="language-Bash"><code>npm init
+import{_ as e,o as a,c as i,e as s}from"./app-3e796566.js";const n={},d=s(`<h3 id="基础使用" tabindex="-1"><a class="header-anchor" href="#基础使用" aria-hidden="true">#</a> 基础使用</h3><p>1、初始化项目</p><div class="language-Bash line-numbers-mode" data-ext="Bash"><pre class="language-Bash"><code>npm init
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>2、添加bin节点zl-test-cli命令</p><div class="language-JSON line-numbers-mode" data-ext="JSON"><pre class="language-JSON"><code>&quot;bin&quot;: {
     &quot;zl-test-cli&quot;: &quot;bin/index.js&quot;
   },
