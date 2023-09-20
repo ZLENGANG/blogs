@@ -1,4 +1,4 @@
-import{_ as s,r as a,o as d,c as r,a as e,b as n,d as u,e as i}from"./app-849fcb21.js";const v="/blogs/assets/gitlab-ci-auto-1-c04f46f8.png",c="/blogs/assets/gitlab-ci-auto-2-76819281.png",t={},o=i(`<h4 id="_1-执行机-executor" tabindex="-1"><a class="header-anchor" href="#_1-执行机-executor" aria-hidden="true">#</a> 1. 执行机（<strong>Executor</strong>）</h4><p>运行程序的机器</p><ul><li>安装nodejs</li></ul><div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><pre class="language-PowerShell"><code># 1、下载nodejs
+import{_ as s,r as a,o as d,c as r,a as e,b as n,d as u,e as i}from"./app-c9761e37.js";const v="/blogs/assets/gitlab-ci-auto-1-c04f46f8.png",c="/blogs/assets/gitlab-ci-auto-2-76819281.png",t={},o=i(`<h4 id="_1-执行机-executor" tabindex="-1"><a class="header-anchor" href="#_1-执行机-executor" aria-hidden="true">#</a> 1. 执行机（<strong>Executor</strong>）</h4><p>运行程序的机器</p><ul><li>安装nodejs</li></ul><div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><pre class="language-PowerShell"><code># 1、下载nodejs
 wget https://nodejs.org/dist/v14.17.4/node-v14.17.4-linux-x64.tar.xz
 # 2、解压nodejs
 tar -xvf node-v14.17.4-linux-x64.tar.xz
