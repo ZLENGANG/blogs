@@ -6,7 +6,7 @@ import { recoTheme } from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "Roninz的博客",
   description: "Roninz的博客",
-  head: [["link", { rel: "icon", href: "/avatar.png" }]],
+  head: [["link", { rel: "icon", href: "/blogs/avatar.png" }]],
   theme: recoTheme({
     author: "Roninz",
     authorAvatar: "/avatar.png",
